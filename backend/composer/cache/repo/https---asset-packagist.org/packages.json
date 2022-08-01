@@ -1,1 +1,1 @@
-{"providers-url":"\/p\/%package%\/%hash%.json","provider-includes":{"p\/provider-latest\/%hash%.json":{"sha256":"1027e4c683d7ddccc00e6fd2b34b2eb6acc503d740b11bd5de35fc9bbbad7bf1"}},"available-package-patterns":["bower-asset\/*","npm-asset\/*"],"last-modified":"Wed, 20 Jul 2022 00:46:46 GMT"}
+{"providers-url":"/p/%package%/%hash%.json","provider-includes":{"p/provider-latest/%hash%.json":{"sha256":"db688685f35c6587b0dacbfca2659327c55581f70b54de401c1ee8c5fb9ffc54"}},"available-package-patterns":["bower-asset/*","npm-asset/*"]}
