@@ -248,8 +248,7 @@ export default {
         var that = this
         that.listarReservas()
         that.cargarAulas()
-        that.separarHorad()
-        that.separarHorah()
+        
     },
     methods: {
 

@@ -1,13 +1,13 @@
-<template>
-  <v-container>
+<template >
+  <v-container >
  <h1>LISTADO DE PROFESORES</h1> <br>
-    <v-window v-model=step>
-      <v-window-item :value="1">
+    <v-window v-model=step >
+      <v-window-item :value="1" color="blue">
         <div>
           <v-btn color="blue" dark title elevation="5" @click="(step = 2)">Crear Profesor</v-btn>
         </div>
         
-        <v-simple-table>
+        <v-simple-table >
 
           <template v-slot:default  >
             <thead>
@@ -30,7 +30,7 @@
 
               </tr>
             </thead>
-            <tbody>
+            <tbody >
               <tr v-for="profesor in profesores" :key="profesor.id">
                 <td>{{ profesor.id }}</td>
                 <td>{{ profesor.nombre }}</td>
@@ -105,6 +105,7 @@
 
     </v-window>
   </v-container>
+  
 </template>
 
 <script>

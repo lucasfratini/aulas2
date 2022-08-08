@@ -43,7 +43,7 @@ export default {
       { title: 'Aula', icon: 'mdi-atlassian', to: '/AulasAulas' },
       { title: 'Reservar Aula', icon: 'mdi-calendar-month-outline', to: '/AulasReservaAula' },
       { title: 'Horario de Materias', icon: 'mdi-clock', to: '/AulasHorarioMateria' },
-      { title: 'About', icon: 'mdi-information', to: '/AulasAbout' },
+     
 
     ],
   }),

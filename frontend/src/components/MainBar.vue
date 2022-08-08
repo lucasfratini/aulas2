@@ -5,8 +5,8 @@
         elevation="10"
         color="blue"
     >
-    
-      <v-app-bar-title >Aplicacion para la Administracion de las Aulas </v-app-bar-title>
+     
+      <v-app-bar-title >Administrador de Aulas </v-app-bar-title>
       <v-spacer></v-spacer>
       
       <v-btn small @click="logout">
@@ -15,6 +15,7 @@
     </v-app-bar>
 
   </v-container>
+  
 </template>
 
 <script>
